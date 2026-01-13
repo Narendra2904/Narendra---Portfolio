@@ -101,22 +101,7 @@ const Hero = () => {
           </div>
 
           {/* Right Content - Profile Image */}
-          <div className={`relative transition-all duration-1000 delay-200 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-12'}`}>
-            <div className="relative w-full max-w-md mx-auto">
-              {/* Decorative Elements */}
-              <div className="absolute inset-0 bg-gradient-to-br from-blue-600 to-cyan-600 dark:from-blue-500 dark:to-cyan-500 rounded-3xl rotate-6 opacity-20 animate-pulse"></div>
-              <div className="absolute inset-0 bg-gradient-to-br from-cyan-600 to-blue-600 dark:from-cyan-500 dark:to-blue-500 rounded-3xl -rotate-6 opacity-20 animate-pulse" style={{ animationDelay: '1s' }}></div>
-              
-              {/* Profile Image */}
-              <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white dark:border-slate-800 hover:scale-105 transition-transform duration-500 hover:rotate-1">
-                <img
-                  src={personalInfo.profileImage}
-                  alt={personalInfo.name}
-                  className="w-full h-auto object-cover"
-                />
-              </div>
-            </div>
-          </div>
+          
         </div>
       </div>
     </section>
