@@ -72,9 +72,7 @@ const Footer = () => {
             <p className="text-slate-400 text-sm font-normal">
               © {currentYear} Narendra Yenagandula. All rights reserved.
             </p>
-            <p className="text-slate-400 text-sm flex items-center gap-1 font-normal">
-              Made with <Heart className="h-4 w-4 text-red-500 fill-red-500 animate-pulse" /> by Narendra
-            </p>
+            
           </div>
         </div>
       </div>
